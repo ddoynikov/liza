@@ -1,0 +1,45 @@
+<footer class="footer">
+    <div class="footer__wrapper container">
+        <img src="/img/end.png" alt="The End" class="footer__persons">
+        <img src="/img/logo.png" alt="The End" class="footer__logo">
+        <h2 class="footer__title">
+            Свяжитесь с нами!
+        </h2>
+    </div>
+    <div class="form__wrapper form__wrapper_footer ">
+        <form class="contact_form contact__form-footer" action="" method="post" name="contact__form">
+            <input name="name" id="name" type="text" placeholder="Имя" class="order__input">
+            <input name="tel" type="tel" placeholder="+7-(___)___-__-__" class="order__input" required>
+            <button type="submit" class="order__btn act">Связаться</button>
+        </form>
+    </div>
+    <div class="footer__section">
+        <div class="footer__item">
+            <img class="footer__contacts-logo" src="/img/phone-w.png" alt="phone">
+            <p class="footer__contacts-text"><a href="#" class="">+7 (915) 149-45-11</a></p>
+        </div>
+        <div class="footer__item">
+            <img class="footer__contacts-logo" src="/img/mail-w.png" alt="mail">
+            <p class="footer__contacts-text"><a href="mailto:hello@pick-pack.ru" class="">hello@pick-pack.ru</a></p>
+        </div>
+    </div>
+    </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    var $page = $('html, body');
+    $('a[href*="#"]').click(function () {
+        $page.animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 1000);
+        return false;
+    });
+</script>
+<script src="../js/main.js"></script>
+<script src="../js/vendor.js"></script>
+</body>
+
+</html>
