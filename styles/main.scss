@@ -441,8 +441,8 @@ h3 {
 .profit {
     margin-top: 60px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
 .profit__logo {
@@ -450,7 +450,7 @@ h3 {
 }
 
 .profit__item {
-    width: 260px;
+    width: calc(100%/4 - 30px);
     text-align: center;
 }
 
