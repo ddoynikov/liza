@@ -1346,13 +1346,4 @@ h1.about {
   transition: all 0.3s cubic-bezier(0.5, 0, 0.3, 1);
 }
 
-/* Подарочные наборы */
-
-.present__description {
-  text-align: center;
-}
-
-.container {
-  background: #000;
-}
 /*# sourceMappingURL=maps/main.css.map */
