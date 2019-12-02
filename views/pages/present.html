@@ -1,0 +1,63 @@
+        @@include("../../blocks/modules/header/header-novh.html")
+        <div class="container">
+            <h1 class="main__title">
+                Полиграфическая продукция
+            </h1>
+            <p class="present__description">
+                Тут пара строк на описание. В общем сколько угодно можно писать, но главное понимать, что это никто не читает. 
+                Здесь уже скоро начнется вторая строка, наслаждаемся и пляшем
+            </p>
+                <div class="present__wrapper">
+                    <div class="present__item">
+                        <img src="/img/present/port1.jpg" alt="" class="present__img">
+                        <div class="present__content">
+                            <p class="logotipe__title">
+                                Детские подарки
+                            </p>
+                            <a href="#feedback" class="pos__button">
+                                Заказать
+                            </a>
+                        </div>
+                    </div>
+                    <div class="present__item">
+                        <img src="/img/present/port2.jpg" alt="" class="present__img">
+                        <div class="present__content">
+                            <p class="logotipe__title">
+                                Чайные / кофейные наборы
+                            </p>
+                            <a href="#feedback" class="pos__button">
+                                Заказать
+                            </a>
+                        </div>
+                    </div>
+                    <div class="present__item">
+                        <img src="/img/present/port3.jpg" alt="" class="present__img">
+                        <div class="present__content">
+                            <p class="logotipe__title">
+                                Наборы с горячим шоколадом
+                            </p>
+                            <a href="#feedback" class="pos__button">
+                                Заказать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    <section class="feedback feedback__pos" id="feedback">
+    
+        <h2 class="feedback__title">
+            Закажите у нас прямо сейчас!
+        </h2>
+        <div class="feedback__wrapper container">
+            <div class="form__wrapper">
+                <form class="contact_form" action="contact-form.php" method="post">
+                    <input name="name" id="name" type="text" placeholder="Имя" class="order__input" required>
+                    <input name="tel" type="tel" placeholder="+7-(___)___-__-__" class="order__input" required><br>
+                    <button type="submit" class="order__btn act">Связаться</button>
+                </form>
+            </div>
+        </div>
+    </section>
+        @@include("../../blocks/modules/footer/footer.html")
+       
